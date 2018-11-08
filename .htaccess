@@ -1,0 +1,10 @@
+
+php_value session.auto_start 1
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+ErrorDocument 404 /index.php
+</IfModule>
