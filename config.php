@@ -11,7 +11,7 @@ class config{
     function getConnection(){
         $host = "localhost";
         $user = "root";
-        $pass = "";
+        $pass = "*,[FY&";
         $db = "pweb";
 
         try {
