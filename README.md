@@ -1,22 +1,22 @@
+
+
 # pweb_shortenerLink
 
-Sebuah Aplikasi Web, link-shortener.
-dibuat dengan php secara native.
+A Web-based app, link-shortener made by native php.
+pweb_shortenerLink is now in version 1.0
 
-Aplikasi web ini menggunakan .htaccess maka pastikan server-side support.
-.htaccess yang digunakan ialah:
-- module rewrite : diganakan untuk menghapus ekstensi .php
-- php_value : digunakan untuk mengaktifkan php session secara automatis.
+some features:
+- Register as user
+- Login as user
+- Notify with cookies
+- Data table with Ajax
+- redirection page with a custom background
 
-Fitur-fitur:
-- Register
-- Login Session
-- Notify dengan cookies
-- CRUD
-- ajax data table dengan tabulator js
-- redirect dengan custom wallpaper
-- 
+Some library/framework used:
+- jquery-3.3.1.min.js   
+- tabulator.min.js
 
-
-
-
+This web-based app is using .htaccess also, so make sure your server-side is support is.
+.htaccess used :
+- rewrite module
+- php_value
